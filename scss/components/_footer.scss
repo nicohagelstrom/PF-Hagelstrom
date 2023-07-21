@@ -1,0 +1,36 @@
+// Estilos del footer //
+
+footer {
+    background-color: #262424;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-secciones ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-secciones ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-secciones ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.footer-redes {
+    margin-top: 10px;
+}
+
+.footer-redes a {
+    margin-right: 10px;
+}
+
+.footer-redes img {
+    width: 20px;
+}

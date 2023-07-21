@@ -1,0 +1,46 @@
+$c-bordo: rgb(196, 18, 80);
+$c-azul: rgb(50, 1, 163);
+$c-backcolor: whitesmoke;
+$ff-verdana: Verdana, Geneva, Tahoma, sans-serif;
+$ff-arial: Arial, sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Body //
+
+#Logo-index {
+    width: 100px;
+    height: auto;
+}
+
+
+body {
+    font-family: $ff-arial;
+    background-color: $c-backcolor;
+    margin: auto;
+    padding: 0;
+}
+
+
+// Estilos del main //
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin: 0;
+    text-align: center;
+}
+
+section p {
+    color: #555;
+}

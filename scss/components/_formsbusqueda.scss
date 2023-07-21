@@ -1,0 +1,29 @@
+// Estilos formulario busqueda //
+
+#formulario_busqueda {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#formulario_busqueda input[type="Busqueda"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#formulario_busqueda input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

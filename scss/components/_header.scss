@@ -1,0 +1,42 @@
+//  Header //
+
+header {
+    background-color: white;
+    color: white;
+
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin: 10px;
+    background-color: inherit;
+    display: inline-block;
+}
+
+
+header li {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+
+nav ul {
+    background-color: rgb(127, 142, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
