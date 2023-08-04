@@ -1,0 +1,27 @@
+
+.tarjeta-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta-comotrabajamos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    color: red;
+    width: 45%;
+    margin: 10px;
+
+    @media screen and (max-width: 768px) {
+        width: 90%; 
+        margin: 5px;
+    }
+
+
+    & img {
+        width: 50%;
+        margin: auto;
+        border-radius: 10%;
+    }
+}
