@@ -217,11 +217,11 @@ nav ul li a {
   height: 100vh;
   border-radius: 10px;
   background-image: url("../img/backround rocket.png");
-  background-size: 100%;
+  background-size: cover;
 }
 @media screen and (max-width: 768px) {
   .centrar-tarjetas {
-    background-size: auto;
+    background-size: cover;
   }
 }
 .centrar-tarjetas h2, .centrar-tarjetas p {
