@@ -1,0 +1,49 @@
+.row {
+    /* Ajustar el margen horizontal entre las tarjetas */
+    margin: -15px;
+}
+
+.tarjeta-4 {
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+
+    img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+        color: #333;
+    }
+
+    p {
+        color: #666;
+    }
+
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+
+    .titulo-h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+
+    .tarjeta-2-content {
+        padding: 20px;
+    }
+}
+
+.col-md-6,
+.col-lg-4 {
+    padding: 15px;
+}

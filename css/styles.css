@@ -146,18 +146,112 @@ nav ul li a {
   margin: auto;
 }
 
-.tarjeta-3 {
+.tarjeta-container {
   display: flex;
-  flex-direction: column;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tarjeta-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  color: red;
+  width: 45%;
+  margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .tarjeta-3 {
+    width: 90%;
+    margin: 5px;
+  }
 }
 .tarjeta-3 img {
   width: 50%;
   margin: auto;
+}
+
+.row {
+  /* Ajustar el margen horizontal entre las tarjetas */
+  margin: -15px;
+}
+
+.tarjeta-4 {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+.tarjeta-4 img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.tarjeta-4 h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+.tarjeta-4 p {
+  color: #666;
+}
+.tarjeta-4:hover {
+  transform: scale(1.05);
+}
+.tarjeta-4 .titulo-h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.tarjeta-4 .tarjeta-2-content {
+  padding: 20px;
+}
+
+.col-md-6,
+.col-lg-4 {
+  padding: 15px;
+}
+
+.tarjeta-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  color: red;
+}
+
+.centrar-tarjetas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 10px;
+  background-image: url("../img/backround rocket.png");
+  background-size: 100%;
+}
+@media screen and (max-width: 768px) {
+  .centrar-tarjetas {
+    background-size: auto;
+  }
+}
+.centrar-tarjetas h2, .centrar-tarjetas p {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(196, 18, 80);
+  padding: 10px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.tarjeta-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 90%;
+  margin: 10px;
+  height: inherit;
+  border-radius: 10px;
 }
 
 .titulo-h2 {

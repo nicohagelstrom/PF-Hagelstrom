@@ -1,11 +1,37 @@
-.tarjeta-3 {
+// .tarjeta-3 {
+//     display: flex;
+//     flex-direction: column;
+//     background-color: #f9f9f9;
+//     border: 1px solid #ddd;
+//     padding: 20px;
+//     margin-bottom: 20px;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+//     & img {
+//         width: 50%;
+//         margin: auto;
+//     }
+// }
+
+.tarjeta-container {
     display: flex;
-    flex-direction: column;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    color: red;
+    width: 45%;
+    margin: 10px;
+
+    @media screen and (max-width: 768px) {
+        width: 90%; // Ancho del 90% para pantallas pequeñas
+        margin: 5px; // Reduce el margen en pantallas pequeñas
+    }
+
 
     & img {
         width: 50%;

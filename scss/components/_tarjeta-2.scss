@@ -6,7 +6,7 @@
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+
 
     & img {
         width: 10%;
@@ -14,3 +14,26 @@
     }
 
 }
+
+
+
+
+// .tarjetas-container {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+// .tarjeta-2 {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+//     gap: 20px;
+//     color: red;
+//     width: 45%;
+//     margin: 10px;
+
+
+//     & img {
+//         width: 50%;
+//         margin: auto;
+//     }
+// }
